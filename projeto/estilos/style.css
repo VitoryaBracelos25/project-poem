@@ -56,6 +56,7 @@ main{
     padding-right: 3vw;
     min-width: 400px;
     max-width: 1000px;
+    font-size: 1.2em;
 }
 
 section{
@@ -96,30 +97,42 @@ section#primeiro{
     text-align: center;
 }
 section#primeiro > h1{
-    padding-top: 60px;
-    text-align: center;
-    font-size: 2em;		
-}
-section#primeiro > h2{
-    padding-top: 30px;
-    padding-bottom: 6px;
     color: darkred;
+    padding-top: 60px;
+    padding-bottom: 35PX;
+    text-align: center;
+    font-size: 2.2em;		
+    font-variant: small-caps;
 }
 section#primeiro > p{
     display: inline-block;
+    padding-bottom: 30px;
+}
+section#primeiro > p#bloco2{
+    background-color: lightgray;
+    color: white;
+    height: 150px;
+    width: 100%;
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.347);
+    padding: 20px;
+    padding-top: 55px;
 }
 section#primeiro > p#bloco3{
-    background-color: lightgray;
-    height: 200px;
-    padding-right: 100px;
-}
-section#primeiro > p#bloco4{
-    height: 50px;
+    height: 40px;
 }
 section#segundo > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section#segundo > p#imagem{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    height: 150px;
+    width: 300px;
+    background-image: url(../imagens/barco3.png);
+    background-size: 100% 100%;
+    margin: auto;
 }
 section#terceiro > p{
     background-color: #ffffff;
